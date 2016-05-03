@@ -28,3 +28,4 @@ public class SimpleCBRRoute extends RouteBuilder {
                 .log(LoggingLevel.ERROR, "Unknown type.").to("mock:error");
     }
 }
+
